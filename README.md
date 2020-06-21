@@ -1,2 +1,0 @@
-# mychatbot
-A simple chatbot

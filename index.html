@@ -1,9 +1,89 @@
- <script src="widget.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The KCbot</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- bootstrap css cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Piedra&display=swap" rel="stylesheet">
+    <style type="text/css">
+        .link{
+            font-size: 20px;
+            padding: 5px;
+            color: #524c4c;
+        }
+        .link:hover{
+            color:#343a40b3 !important;
+        }
+        .head-text{
+            font-family: 'Piedra', cursive;
+        }
+        .card{
+            margin-top: 150px;
+            background-color: #e9f2ff;
+            padding: 30px;
+            box-shadow: 0 15px 10px #777;
+            -webkit-transform: rotate(-3deg);
+            -moz-transform: rotate(-3deg);
+            -o-transform: rotate(-3deg);
+            -ms-transform: rotate(-3deg);
+            transform: rotate(-3deg);
+        }
+        .link:after{
+            -webkit-transform: rotate(3deg);
+            -moz-transform: rotate(3deg);
+            -o-transform: rotate(3deg);
+            -ms-transform: rotate(3deg);
+            transform: rotate(3deg);
+            right: 10px;
+            left: auto;
+        }
+        p{
+            font-size: 20px;
+            font-family: 'Open Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card text-center rounded">
+                    <img src="" alt="" srcset="">
+                    <h3 class="head-text">Hey there!</h3>
+                    <p>I am the <b>KCbot</b> created and developed by a genius @KC. I am still work in progress so I can't quite cover a variety of topics <i class="fa fa-frown-o" aria-hidden="true"></i>. But you can follow me to keep up with my progress </p>
+                    <p>To start a conversation, hit the message icon and say Hi, Hey or Hello</p>
+                    <span class="pb-4">
+                        <a class="link" href="https://twitter.com/KK_favour"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
+                        <a class="link" href="https://www.instagram.com/kay_ai8/"><i class="fa fa-instagram" aria-hidden="true"></i></a> 
+                        <a class="link" href="https://web.facebook.com/obasi.favours/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   <script src="widget.js"></script>
 	  <script>
         var botmanWidget = {
             frameEndpoint: 'chat.html',
-            introMessage: 'Hello',
+            introMessage: 'Hello friend!',
             chatServer : 'botman.php', 
             title: 'KCbot | Slack Name: @KC'
         }; 
     </script>
+    
+    <!-- bootstrap js cdn -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+</body>
+</html>
+
+
